@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Service_Rating" />
+        <module name="Service_Appreils" />
+        <module name="Server_SH" />
+        <module name="Service_Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Service_Appareil" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Server_SH" options="-parameters" />
+      <module name="Service_Appareil" options="-parameters" />
+      <module name="Service_Appreils" options="-parameters" />
+      <module name="Service_Gateway" options="-parameters" />
+      <module name="Service_Rating" options="-parameters" />
+    </option>
+  </component>
+</project>
